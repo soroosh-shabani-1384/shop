@@ -1,0 +1,11 @@
+.soroosh{
+border: 1px solid #2e2e2e;
+border-radius: 10px;
+padding: 2px;
+width: 30px;
+}
+.product {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #2e2e2e;
+}
