@@ -142,19 +142,37 @@
                     <img src="MRX92.jfif" alt="MRX92" class="sll">
                 </div>
                 <div class="col-8">
-                    <div>قاب صورتی ایپد پرو 11 اینچ</div>
-                    <input type="text" class="soroosh" placeholder="تعداد">
+                    <div class="row">
+                        <div class="col-8">قاب صورتی ایپد پرو 11 اینچ</div>
+                        <div class="col-4">490000تومان</div>
+                </div>
+                    
+                    <input type="text" id="tedad" class="soroosh" placeholder="تعداد">
                     <a href="#">حذف کردن</a>
                 </div>
             </div>
+            <p class="sor">
    <a href="#">حذف کردن</a>
-    
+   <a href="#">کد تخفیف دارید؟؟!!کلیک کنید</a>
+   <a href="#" class="check">چک کنید</a>
+</p>
             <div class="ks">جمع هزینه ها</div>
             <div class="ks">مالیات</div>
-            <a href="#">کد تخفیف دارید؟؟!!کلیک کنید</a>
+            
             <div class="ks">جمع هزینه ها</div>
-            <a href="#">چک کنید</a>
+            
         </div>
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script>
+            $(".check").click(function() {
+                var tedad = $("#tedad").val();
+                if (tedad == "") {
+                    alert("لطفا تعداد را وارد کنید");
+                } else {
+                    alert("خرید شما چک شد")
+                }
+            })
+        </script>
     </main>
 </body>
 </html>

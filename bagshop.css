@@ -9,3 +9,28 @@ width: 30px;
     margin-bottom: 5px;
     border-bottom: 1px solid #2e2e2e;
 }
+.sor{
+    text-align: center;
+}
+.sor a {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1px;
+    background-color: #000;
+    color: white;
+    
+}
+.sor a:hover{
+    color: aqua;
+    transition: 500ms;
+}
+.class{
+    margin-top: 3rem;
+    margin-bottom: 10px
+}
+.slm{
+    margin-bottom: 2rem;
+}
+.col-8{
+    margin-bottom: 2rem;
+}
